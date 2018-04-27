@@ -1,0 +1,5 @@
+jldevia|$2y$10$aHzUr4d7bYwzX2S0JMmI2uQytCZ7aC30se8g9YJUVKqJyDKrYZSE.|Jose Luis|Devia|jldevia81@gmail.com|280-154261617
+gfernandez|$2y$10$AEfPNZM8ZeIzbCWz0U382eV4M41EeZPtFUyTeRHIB7sFjJK9HpDAW|Guillermo|Fernandez|gfernandez@gmail.com|280-154261587
+jrubio|$2y$10$0OTTHpApKETRgofUTUujBOGNhCQT7MmTXw41/uF60qOPzD2Ovff3C|Julia|Rubio|jrubio@gmail.com|2545896
+gvalle|$2y$10$n95m87CMabdDGWkO.RAfkuIONj4MLK2fpgEB2szmlCl0DVKSNZh.O|Gaston|Valle|gvalle@pepito.com|245466
+sfa|$2y$10$OO8p9841U6hzCWW4ga44K.rdhCVqe3Y7QurfiVsYunrvJe8t4d0wK|Sergio|Fa|sfa@eling.com.ar|24578786
