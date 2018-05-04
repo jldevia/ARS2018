@@ -28,7 +28,8 @@
               $cod_chr = (array_search(mb_substr($msg_orig, $i, 1), $alfabeto) + $key) % 27;
             }else{
               //echo(array_search($msg_orig[$i], $alfabeto));
-              $cod_chr = (array_search(mb_substr($msg_orig, $i, 1), $alfabeto) - $key) % 27;
+              $cod_chr = (array_search(mb_substr($msg_orig, $i, 1), $alfabeto) - $key);
+              $cod_chr = ($cod_chr < 0)? $cod_chr + 27 : $cod_chr;
             }
             $msg_cifrado .= $alfabeto[$cod_chr];
           }
@@ -54,7 +55,7 @@
         $err_msg .= "Indique el mensaje a cifrar <br>";
       }else{
           $mensaje = $_POST["message"];
-          if (preg_match("/^[a-zñ\s]*$/i", $mensaje) == 0) {
+          if (preg_match("/^[a-zñÑ\s]*$/i", $mensaje) == 0) {
             $err_msg .= "El mensaje debe contener solo letras [A-Z ó a-z]";
           }
       }

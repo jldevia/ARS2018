@@ -49,7 +49,7 @@
           $err_msg .= "Debe indicar la clave para el cifrado <br>";
       }else{
           $clave = $_POST["key"];
-          if (preg_match("/^[a-zñ]*$/i",$clave) == 0) {
+          if (preg_match("/^[a-zñÑ]*$/i",$clave) == 0) {
             $err_msg .= "La clave del cifrado debe contener solo letras [A-Z ó a-z], sin espacios en blanco <br>";
           }
       }
